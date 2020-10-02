@@ -30,7 +30,7 @@ void main() {
       liters_acquired += 1;
     }
     print('number of liters:$liters_acquired');
-    print(amount);
+    print('your change is $amount');
     //by liter purchase
   } else if (type_of_purchase == 'liter') {
     int number = 1;
